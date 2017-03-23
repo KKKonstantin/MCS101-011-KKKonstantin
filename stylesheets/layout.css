@@ -70,3 +70,26 @@ blockquote {
   font-size: 18px;
   line-height: 32px;
 }
+
+.rollover {
+float:left;
+margin: 4px 10px 2px 115px;
+}
+
+.fotoright {
+float:right;
+margin: 4px 85px 2px 100px;
+width: 400px; /* Ширина рисунка */
+height: 600px; /*  Высота рисунка */
+}
+
+.fotoleft {
+float:left;
+margin: 4px 85px 2px 100px;
+width: 400px; /* Ширина рисунка */
+height: 570px; /*  Высота рисунка */
+}
+
+h2 {
+  background-image:url('images\Women-samurai1.jpg');
+}
