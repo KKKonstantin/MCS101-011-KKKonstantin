@@ -51,6 +51,12 @@ p, ul, li {
   font-size: 18px;
 }
 
+li {
+  margin-top: 29px;
+  line-height: 20px;
+  font-size: 18px;
+}
+
 p + h2 {
   margin-top: 43px;
 }
@@ -69,6 +75,8 @@ blockquote {
   margin-bottom: 29px;
   font-size: 18px;
   line-height: 32px;
+  font-style: italic; /* Курсивное начертание */
+  background-color: rgba(216, 185, 131, 0.2);
 }
 
 .rollover {
@@ -90,6 +98,6 @@ width: 400px; /* Ширина рисунка */
 height: 570px; /*  Высота рисунка */
 }
 
-h2 {
-  background-image:url('images\Women-samurai1.jpg');
+p.end {
+  margin-bottom: 29px
 }
