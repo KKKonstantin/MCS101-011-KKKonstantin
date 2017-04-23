@@ -1,0 +1,41 @@
+.menubar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.menubar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto; /*Центрирование на странице*/
+  height: 50px;
+  padding: 20px;
+}
+
+.logo {
+width: 180px;
+height: 16px;
+background-image: url(../images/posts/logo.svg); /*'../' - означает, что нужно выйти в папку назад*/
+background-size: cover; /*команда означает, что без потери пропорций, чтобы элементы не заезжали и прочее*/
+background-repeat: no-repeat;
+}
+
+.about {
+font-size: 14px;
+line-height: 50px;
+color: rgba(0, 0, 0, .1);
+-webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+
+.about:hover {
+  color: rgba(0, 0, 0, .4);
+}

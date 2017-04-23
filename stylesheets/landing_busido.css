@@ -1,0 +1,93 @@
+.woman {
+  background-image: url(../images/samurai/Women-samurai2.jpg);
+  /*background-color: rgba(18, 23, 28, .06);*/
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Фиксируем фон веб-страницы */
+}
+
+/*.woman_bg {
+  background-image: url(images/samurai/Women-samurai1_copy.jpg);
+  background-repeat: repeat-x;
+  background-attachment: fixed; /* Фиксируем фон веб-страницы */
+
+.fotoleft {
+  float:left;
+  margin: 4px 85px 2px 100px;
+  width: 400px; /* Ширина рисунка */
+  height: 570px; /*  Высота рисунка */
+}
+
+.fotoright1, .fotoright2 {
+  float:right;
+  margin: 4px 10px 2px -25px;
+  width: 435px; /* Ширина рисунка */
+  height: 600px; /*  Высота рисунка */
+}
+
+a.rollover {
+  background: url(../images/posts/Samurai_1.jpg); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 435px; /* Ширина рисунка */
+  height: 600px; /*  Высота рисунка */
+}
+
+a.rollover:hover {
+  background: url(../images/posts/Samurai_2.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+.rollover {
+  float:left;
+  margin: 4px 10px 2px 30px;
+}
+
+@media all and (max-width: 1625px/* 1300px */) and (min-width: 1138px/* 910px */) {
+  .fotoright1, .fotoright2 {
+    float:right;
+    margin: 4px 10px 2px -25px;
+    width: 235px; /* Ширина рисунка */
+    height: 400px; /*  Высота рисунка */
+  }
+
+  .fotoleft {
+    float:left;
+    margin: 4px 85px 2px 100px;
+    width: 200px; /* Ширина рисунка */
+    height: 370px; /*  Высота рисунка */
+  }
+
+  a.rollover {
+    display: none;
+  }
+
+  .woman {
+    background-image: url(../images/samurai/Women-samurai2_redakt.jpg);
+  }
+
+}
+
+@media all and (max-width: 1155px/* 910px */) {
+  .woman {
+    background-image: url(../images/samurai/Women-samurai2_redakt.jpg);
+    background-size: 90%;
+  }
+
+  .fotoright1 {
+    display: none;
+  }
+
+  .fotoright2 {
+    display: none;
+  }
+
+  .fotoleft {
+    float:left;
+    margin: 4px 85px 2px 100px;
+    width: 200px; /* Ширина рисунка */
+    height: 370px; /*  Высота рисунка */
+  }
+
+  a.rollover {
+    display: none;
+  }
+
+}
